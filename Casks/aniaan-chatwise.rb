@@ -15,4 +15,11 @@ cask "aniaan-chatwise" do
   depends_on macos: ">= :ventura"
 
   app "ChatWise.app"
+
+  zap trash: [
+    "~/Library/Caches/app.chatwise",
+    "~/Library/Application Support/app.chatwise",
+    "~/Library/WebKit/app.chatwise",
+  ]
+
 end
