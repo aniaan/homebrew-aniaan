@@ -1,9 +1,9 @@
 cask "aniaan-chatwise" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.15"
-  sha256 arm:   "c8b93e14fc73892004ea1454ba2c5e836aec4bd12fea3058e9c7345e516b379d",
-          intel: "da8c628c5ddb6e22b21f340828641bd4bc8c01a119ed289723eab44d614cbc6c"
+  version "0.6.17"
+  sha256 arm:   "faeca3c4d2ec16792c06e627b376d47d94fbbb3d82f5176b1d7f34e6be0e9056",
+          intel: "afbd74573d261ff4f28c2ac30a1f787b6f67640a5127475a265141183bb1df6a"
 
   url "https://github.com/egoist/chatwise-releases/releases/download/v#{version}/ChatWise_#{version}_#{arch}.dmg"
 
