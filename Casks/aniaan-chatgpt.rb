@@ -1,8 +1,8 @@
 cask "aniaan-chatgpt" do
-  version "1.2025.105,1745023574"
-  sha256 "b3073ec3164b755b220650df08f25812745afb46a6e2580f5f648ec111d5deb9"
+  version "latest"
+  sha256 :no_check
 
-  url "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_#{version.csv.first}_#{version.csv.second}.dmg",
+  url "https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg",
       verified: "persistent.oaistatic.com/sidekick/public/"
   name "aniaan-chatgpt"
   desc "aniaan-chatgpt"
