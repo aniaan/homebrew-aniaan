@@ -10,7 +10,6 @@ cask "aniaan-chatgpt" do
 
 
   depends_on macos: ">= :sonoma"
-  depends_on arch: :arm64
 
   app "ChatGPT.app"
 
