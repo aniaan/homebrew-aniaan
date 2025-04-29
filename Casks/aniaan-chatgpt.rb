@@ -1,0 +1,29 @@
+cask "aniaan-chatgpt" do
+  version "1.2025.105,1745023574"
+  sha256 "b3073ec3164b755b220650df08f25812745afb46a6e2580f5f648ec111d5deb9"
+
+  url "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_#{version.csv.first}_#{version.csv.second}.dmg",
+      verified: "persistent.oaistatic.com/sidekick/public/"
+  name "aniaan-chatgpt"
+  desc "aniaan-chatgpt"
+  homepage "https://chatgpt.com/"
+
+
+  depends_on macos: ">= :sonoma"
+  depends_on arch: :arm64
+
+  app "ChatGPT.app"
+
+  uninstall quit: "com.openai.chat"
+
+  zap trash: [
+    "~/Library/Application Support/ChatGPT",
+    "~/Library/Application Support/com.openai.chat",
+    "~/Library/Caches/com.openai.chat",
+    "~/Library/HTTPStorages/com.openai.chat",
+    "~/Library/HTTPStorages/com.openai.chat.binarycookies",
+    "~/Library/Preferences/com.openai.chat.*.plist",
+    "~/Library/Preferences/com.openai.chat.plist",
+    "~/Library/Saved Application State/com.openai.chat.savedState",
+  ]
+end
