@@ -1,6 +1,6 @@
 cask "aniaan-obsidian" do
-  version "1.8.4"
-  sha256 "920d201f82d6efcb8a5319ef135086f01d41bc9cf23bcbe53fab5a2ef986c3fb"
+  version "1.8.10"
+  sha256 "dc188f6d3d4c13be56a51fe64c397cfd323ecaaebe58c53e45a657ca4506f321"
 
   url "https://github.com/obsidianmd/obsidian-releases/releases/download/v#{version}/Obsidian-#{version}.dmg",
       verified: "github.com/obsidianmd/"
