@@ -1,9 +1,9 @@
 cask "aniaan-cursor" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.48.6,1649e229afdef8fd1d18ea173f063563f1e722ef"
-  sha256 arm:   "2532dc3c84f0d8b4d576c80525c5f95fe3e64c856a21afbab775809c49cb6690",
-         intel: "61fb4423e2464261cb84c6cdd02a5b55b61b38c13dd4f67ed6c57105d438e50a"
+  version "1.4.2,07aa3b4519da4feab4761c58da3eeedd253a1671"
+  sha256 arm:   "b92a10c24663f4d31d6183d45fc3440d1b882c722f790b556458a91a4787aa9e",
+         intel: "49805f7edc0a588e29ff69c22e551dbe69e63688d8fce2f74f679683efe726a9"
 
   url "https://downloads.cursor.com/production/#{version.csv.second}/darwin/#{arch}/Cursor-darwin-#{arch}.zip"
   name "aniaan-cursor"
