@@ -1,6 +1,6 @@
 cask "aniaan-surge" do
   version "latest"
-  sha256 "014c6a15bf4b83e8146419c74f006cbc4ab31c2af6f73d75b0c46e06875cbcbf"
+  sha256 "3d10b83ed65448797d57a238729063abc6b704c183cffd51408ce54e87066079"
 
   url "https://dl.nssurge.com/mac/v6/Surge-latest.zip"
   name "aniaan-surge"
