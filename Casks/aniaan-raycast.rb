@@ -1,9 +1,9 @@
 cask "aniaan-raycast" do
   arch arm: "arm", intel: "x86_64"
 
-  version "1.88.4"
-  sha256 arm:   "ab7a57fe63a5feef4a31c01fbd79b882260a8e74c1f74dcdd626ee6ef68ef54c",
-          intel: "97ad4054ac7e6989a09d52bc77e6f2da92a2bb570802e78b8a94633b30af89be"
+  version "1.102.3"
+  sha256 arm:   "adbebb4569afe3326ce28b06b7fe03e577d5dd94f561bc211c0844a8fac2c429",
+           intel: "d42088aea0efee1d33ff8f57f54ace6de5a6c80cfef97a4c759e7c8a55b8c083"
 
   url "https://releases.raycast.com/releases/#{version}/download?build=#{arch}"
 
