@@ -1,6 +1,6 @@
 cask "aniaan-kitty" do
-  version "0.42.2"
-  sha256 "d524664297ba3815aee56867e3ebaeedfe2abcca50228bfc2a52d8424be133d2"
+  version "0.43.1"
+  sha256 "e36d8f0f3cbaa7b49e4fb9eca5eb3f17d2d7de4666c08cf71b69a79b6ea987aa"
 
   url "https://github.com/kovidgoyal/kitty/releases/download/v#{version}/kitty-#{version}.dmg"
   name "aniaan-kitty"
