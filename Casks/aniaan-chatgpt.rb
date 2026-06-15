@@ -9,7 +9,7 @@ cask "aniaan-chatgpt" do
   homepage "https://chatgpt.com/"
 
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ChatGPT.app"
 

@@ -9,7 +9,7 @@ cask "aniaan-vscode" do
   name "aniaan vscode"
   desc "aniaan vscode"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Visual Studio Code.app"
   binary "#{appdir}/Visual Studio Code.app/Contents/Resources/app/bin/code"

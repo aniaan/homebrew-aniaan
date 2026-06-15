@@ -10,7 +10,7 @@ cask "aniaan-zed" do
   desc "aniaan-zed"
   homepage "https://zed.dev/"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Zed.app"
   binary "#{appdir}/Zed.app/Contents/MacOS/cli", target: "zed"

@@ -6,7 +6,7 @@ cask "aniaan-chrome" do
   name "aniaan Google Chrome"
   desc "aniaan Web browser"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Google Chrome.app"
 

@@ -12,7 +12,7 @@ cask "aniaan-chatwise" do
   desc "aniaan-chatwise"
   homepage "https://chatwise.app"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ChatWise.app"
 

@@ -6,7 +6,7 @@ cask "aniaan-squirrel" do
   name "aniaan-squirrel"
   desc "aniaan-squirrel"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   pkg "Squirrel-#{version}.pkg"
 

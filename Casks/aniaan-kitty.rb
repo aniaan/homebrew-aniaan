@@ -7,7 +7,7 @@ cask "aniaan-kitty" do
   desc "aniaan-kitty"
   homepage "https://github.com/kovidgoyal/kitty"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
 
   app "kitty.app"

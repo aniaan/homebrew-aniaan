@@ -8,7 +8,7 @@ cask "aniaan-obsidian" do
   desc "aniaan-obisidian"
   homepage "https://obsidian.md/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Obsidian.app"
 

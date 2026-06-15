@@ -1,7 +1,7 @@
 cask "aniaan-ghostty" do
   version "1.1.2"
   sha256 "d4ad01396834ca447fa5d084ebf6fb5d44957280faaf22ea473e9606751c48e1"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   name "aniaan-ghostty"
   url "https://release.files.ghostty.org/#{version}/Ghostty.dmg"

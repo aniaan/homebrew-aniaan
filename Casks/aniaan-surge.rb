@@ -7,7 +7,7 @@ cask "aniaan-surge" do
   desc "aniaan-surge"
   homepage "https://nssurge.com/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Surge.app"
 

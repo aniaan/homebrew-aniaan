@@ -9,7 +9,7 @@ cask "aniaan-1password" do
   homepage "https://1password.com/"
 
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "1Password.app"
 

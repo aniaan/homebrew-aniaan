@@ -12,7 +12,7 @@ cask "aniaan-raycast" do
   desc "aniaan-raycast"
   homepage "https://raycast.com/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
 
   app "Raycast.app"

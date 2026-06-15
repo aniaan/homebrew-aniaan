@@ -7,7 +7,7 @@ cask "aniaan-arc" do
   name "aniaan-arc"
   desc "aniaan build arc"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Arc.app"
 

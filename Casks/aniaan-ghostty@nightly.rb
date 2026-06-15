@@ -1,7 +1,7 @@
 cask "aniaan-ghostty@nightly" do
   version "nightly"
   sha256 :no_check
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   name "aniaan-ghostty@nightly"
   url "https://github.com/ghostty-org/ghostty/releases/download/tip/Ghostty.dmg"

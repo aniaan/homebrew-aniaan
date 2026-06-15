@@ -9,7 +9,7 @@ cask "aniaan-zen-browser" do
   homepage "https://zen-browser.app/"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
 
   app "Zen Browser.app"

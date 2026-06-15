@@ -10,7 +10,7 @@ cask "aniaan-cursor" do
   desc "aniaan-cursor"
   homepage "https://www.cursor.com/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Cursor.app"
   binary "#{appdir}/Cursor.app/Contents/Resources/app/bin/code", target: "cursor"
